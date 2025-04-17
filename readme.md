@@ -8,7 +8,9 @@ Model-stealing attacks are emerging as a severe threat to AI-based services beca
 ## Preparation
 
 #### Download Surrogate Dataset 
-ILSVRC-2012 trainset(32x32 resized, 15.74GB) [unlabeled_dataset.pt](https://drive.google.com/file/d/11D9IbS1WvpgwPLUkKc0ts3spi1gFRV5e/view?usp=sharing)
+- Download file: ILSVRC-2012 trainset(32x32 resized, 15.74GB) [unlabeled_dataset.pt](https://drive.google.com/file/d/11D9IbS1WvpgwPLUkKc0ts3spi1gFRV5e/view?usp=sharing)
+- Check the path in `swiftthief.py` line 48
+
 
 #### Download Victim Models
 
@@ -22,13 +24,17 @@ To prepare vicitm models, download below files and store it to `save/victim/{DAT
 - MNIST : [save/victim/mnist/model.pt](https://drive.google.com/file/d/1oT0j-s42ppdFn1KpeQJEXz7FhY0nYMMf/view?usp=sharing)
 - SVHN : [save/victim/svhn/model.pt](https://drive.google.com/file/d/12WPj13A3XbBCs8K65Xe6SLXxaR_IeoWY/view?usp=sharing)
 
+#### Set Victim Datasets Path (for evaluation)
+
+- check `dataset_path` in `utils/get_datasets.py` line 7.
+
 
 ## Run
 `bash scripts/swiftthief/{DATASET}.sh`
 
 ## Details
 
-#### Running Environment Details (For exact reproduction)
+#### Running Environment Details (for exact reproduction)
 
 Based on Pytorch docker images (https://hub.docker.com/r/pytorch/pytorch):
 - OS: UBUNTU 22.04.5 LTS
