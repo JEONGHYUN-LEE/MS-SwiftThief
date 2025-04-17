@@ -1,4 +1,4 @@
-# SwiftThief: Enhancing Query Efficiency of Model Stealing by Contrastive Learning
+# SwiftThief: Enhancing Query Efficiency of Model Stealing by Contrastive Learning, IJCAI`24
 **Jeonghyun Lee, Sungmin Han, Sangkyun Lee**
 
 **Korea University (AIRLAB)**
