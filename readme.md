@@ -8,7 +8,7 @@ Model-stealing attacks are emerging as a severe threat to AI-based services beca
 ## Preparation
 
 #### Download Surrogate Dataset 
-
+ILSVRC-2012 trainset(32x32 resized, 15.74GB) [Dataset](https://drive.google.com/file/d/11D9IbS1WvpgwPLUkKc0ts3spi1gFRV5e/view?usp=sharing)
 
 #### Download Victim Models
 
